@@ -11,3 +11,15 @@
     top: 50%;
     left: 50%;
 }
+
+.heart::before {
+    content: '';
+
+    width: var(--side);
+    height: var(--side);
+    border-radius: 50%;
+
+    position: absolute;
+    top: -50%;
+    background-color: inherit;
+}
