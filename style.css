@@ -1,0 +1,9 @@
+:root {
+    --side: 70px
+}
+
+.heart {
+    width: var(--side);
+    height: var(--side);
+    background-color: #961d1d;
+}
