@@ -6,4 +6,8 @@
     width: var(--side);
     height: var(--side);
     background-color: #961d1d;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
 }
