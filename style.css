@@ -1,5 +1,6 @@
 :root {
-    --side: 70px
+    --side: 70px;
+    --rotation-angle: -45deg;
 }
 
 .heart {
@@ -10,6 +11,8 @@
     position: fixed;
     top: 50%;
     left: 50%;
+
+    transform: rotate(var(--rotation-angle));
 }
 
 .heart::before {
